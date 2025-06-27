@@ -1,6 +1,6 @@
 # Side Projects about Side Projects
 
-How do we manage our side projects and make sure we
+How do we manage our side projects?
 
 ## Possible Steps
 
