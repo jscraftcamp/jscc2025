@@ -1,6 +1,7 @@
 # CSS Battle
 
 Check out cssbattle.dev - since we talked about the Pacman rule, we did battle #119: https://cssbattle.dev/play/119
+(Sadly, we only got to 99.9% 😭)
 
 ```html
 <div class="pacman"></div>
