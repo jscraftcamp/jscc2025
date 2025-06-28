@@ -5,4 +5,5 @@ Please add your sessions! Check out existing ones in the [sessions folder](./ses
 
 - [CSS Battle](./sessions/css-battle)
 - [Side Projects about Side Projects](./sessions/side-projects-about-side-projects)
+- [State of State Management](./sessions/state-of-state-management)
 
