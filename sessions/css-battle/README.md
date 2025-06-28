@@ -47,6 +47,8 @@ Check out cssbattle.dev - since we talked about the Pacman rule, we did battle #
 
 https://cssbattle.dev/play/210
 
+100% solution with clip-path
+
 ```html
 <div></div>
 <style>
@@ -70,3 +72,39 @@ https://cssbattle.dev/play/210
   }
 </style>
 ```
+
+99.9% solution with -webkit-box-reflect:
+
+<details>
+<summary>Code Source – <strong>597.3 {448}</strong></summary>
+<!-- have to be followed by an empty line! -->
+
+```html
+<div><p></p></div>
+<style>
+  body {
+    display:grid;
+    place-items:center;
+    background:#151917;
+  }
+  div {
+    width: 210px;
+    height: 210px;
+    border: 20px solid #D83A34;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+  }
+  p {
+    position: absolute;
+    top: 65px;
+    border: 63.3px solid transparent;
+    border-top: 94.5px solid #D83A34;
+    border-bottom: 0;
+    -webkit-box-reflect: below -50px;
+  }
+</style>
+```
+
+</details>
+
