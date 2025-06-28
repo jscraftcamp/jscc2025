@@ -1,5 +1,7 @@
 # Type Challenges
 
+Type challenges website: https://github.com/type-challenges/type-challenges
+
 ## Basics
 First we recalled the basics of the TypeScript type system:
 - Literal Types
