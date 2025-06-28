@@ -41,3 +41,32 @@ Check out cssbattle.dev - since we talked about the Pacman rule, we did battle #
   }
 </style>
 ```
+
+
+## Saturday session
+
+https://cssbattle.dev/play/210
+
+```html
+<div></div>
+<style>
+  body {
+    display:grid;
+    place-items:center;
+    background:#151917;
+  }
+  div {
+    width: 210px;
+    height: 210px;
+    border: 20px solid #D83A34;
+    border-radius: 50%;
+  }
+  div:after {
+    content: '';
+    position:absolute;
+    inset:0;
+    clip-path: shape(from 137px 81px, line to 262px 81px, line to 216px 50%, line to 262px 219px, line to 137px 219px, line to 183px 50%);
+    background: #D83A34;
+  }
+</style>
+```
