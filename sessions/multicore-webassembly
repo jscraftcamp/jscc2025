@@ -6,7 +6,7 @@
 * why not?
 
 ## Problems and Solutions
-* Avoid copy data - use shared memory with SharedArrayBuffer - must be enabled via header due to security issues (rowhammer)``
+* Avoid copy data - use shared memory with SharedArrayBuffer - must be enabled via header due to security issues (rowhammer)
 * multicore handling complex (in C)- use rust with rayon https://github.com/kyr0/wasm-bindgen-rayon
 * sometimes js jit optimization possible and faster than wasm
 https://github.com/kyr0/defuss/blob/main/examples/wasm-demo/src/js.ts
