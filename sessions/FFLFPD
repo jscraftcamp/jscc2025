@@ -1,0 +1,22 @@
+Focus on user, needs, problems then solutions. 
+Do it fast in Plan, Do, Check, Act. 
+
+Diffrent Risks, not only for the whole product, also for each feature. 
+
+Desirability Risk (Will es jemand?)
+	User Interviews (ohne direkte fragen, sondern ob das problem besteht, und wie es gelöst wird) 	Landing Page Test
+	Pre-Order / Crowdfunding
+
+Feasibility Risk (Kann ich es bauen?) 	Technical Spike
+	Proof of Concept
+	API Mocking
+
+Viability Risk (Lohnt es sich wirtschaftlich?)
+	Pricing Test (A/B)
+	fake door, Smoke Test mit Preisschild
+	Research, Business Model Canvas
+
+Usability Risk (Kann es die Zielgruppe bedienen?)
+	Prototyp:, lovable, bolt.new
+	Paper Prototyping
+	Automation 
