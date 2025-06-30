@@ -1,0 +1,16 @@
+# Multicore Webassembly
+## Why
+* Full Audio Synthesis with low latency in the webbrowser
+* High performance Vector Calculations of much data in the webbrowser (search engine)
+* Low lattency Sound visualizer in the webbrowser
+* why not?
+
+## Problems and Solutions
+* Avoid copy data - use shared memory with SharedArrayBuffer - must be enabled via header due to security issues (rowhammer)
+* multicore handling complex (in C)- use rust with rayon https://github.com/kyr0/wasm-bindgen-rayon
+* sometimes js jit optimization possible and faster than wasm
+https://github.com/kyr0/defuss/blob/main/examples/wasm-demo/src/js.ts
+VS
+https://github.com/kyr0/defuss/blob/main/examples/wasm-demo/src/js_jit.ts
+Demo https://github.com/kyr0/defuss/tree/main/examples/wasm-demo
+* real time process priority for sound in the browser - new browser api AudioWorkletProcessor https://ringbuf-js.netlify.app/
