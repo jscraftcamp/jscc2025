@@ -13,6 +13,7 @@ How do we manage our side projects?
 
     - 1x hour a day
     - Weekend sprint
+    - one commit a day
 
 3. What is your definition of done?
 
